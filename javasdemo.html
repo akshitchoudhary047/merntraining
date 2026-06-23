@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        let sname, h, e,m,s,c,total ,avg,sstatus;
+        sname=prompt("enter the name");
+         h= parseInt(prompt("enter  the  hindi marks"));
+          e= parseInt(prompt("enter the english marks"));
+           m= parseInt(prompt("enter the maths marks"));
+            s= parseInt(prompt("enter the science marks"));
+             c= parseInt(prompt("enter the computer marks"));
+         total=h+e+m+s+c;
+         avg=total/5;
+        sstatus = (avg>=60)?"pass":"fail";
+
+        document.write(`
+        <table border="5" width="100%" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                    <th>Maths</th>
+                    <th>Science</th>
+                    <th>Computer</th>
+                    <th>Total</th>
+                    <th>Average</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>${sname}</td>
+                    <td>${h}</td>
+                    <td>${e}</td>
+                    <td>${m}</td>
+                    <td>${s}</td>
+                    <td>${c}</td>
+                    <td>${total}</td>
+                    <td>${avg.toFixed(2)}</td>
+                    <td style="color:${avg >= 60 ? 'green' : 'red'}">
+                        ${sstatus}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    `);
+</script>
+</body>
+</html>

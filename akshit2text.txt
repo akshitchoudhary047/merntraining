@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Website</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:20px;
+            background-color: lightblue;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-bottom:30px;
+            background:white;
+        }
+
+        th,td{
+            border:1px solid black;
+            padding:15px;
+            text-align:center;
+        }
+
+        th{
+            background-color:#4CAF50;
+            color:white;
+        }
+
+        img{
+            width:250px;
+            height:150px;
+        }
+
+        h2{
+            color:#4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+<marquee scrolltime="15" behavior="alternate" direction="right">
+<h1 >Restaurant Paradise</h1>
+</marquee>
+
+<table>
+    <tr>
+        <th><a href="#home" style="color:white;">Name</a></th>
+        <th><a href="#about" style="color:white;">About</a></th>
+        <th><a href="#services" style="color:white;">Services</a></th>
+        <th><a href="#info" style="color:white;">Information</a></th>
+        <th><a href="#contact" style="color:white;">Contact Us</a></th>
+    </tr>
+</table>
+
+<h2 id="home">Restaurant Name</h2>
+
+<table>
+    <tr>
+
+        <th colspan="2">Description</th>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600" alt="Restaurant">
+        </td>
+        <td>
+            Welcome to Restaurant Paradise. We provide delicious food and excellent service.
+        </td>
+    </tr>
+</table>
+
+<h2 id="about">About Us</h2>
+
+<table>
+    <tr>
+        
+        <th colspan="2">About</th>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600" alt="About">
+        </td>
+        <td>
+            Our restaurant has been serving customers with quality food and a comfortable dining experience for many years.
+        </td>
+    </tr>
+</table>
+
+
+<h2 id="services">Services</h2>
+
+<table>
+    <tr>
+     
+        <th colspan="4">Services Offered</th>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600" alt="Services">
+        </td>
+         <tr>
+        <th>Dine-In</th>
+        <th>Home Delivery</th>
+        <th>Catering</th>
+        <th>Online Ordering</th>
+    </tr>
+
+    <tr>
+        <td>
+            Enjoy meals in our comfortable restaurant with family and friends.
+        </td>
+
+        <td>
+            Fast and reliable delivery service available at your doorstep.
+        </td>
+
+        <td>
+            Catering services available for weddings, parties and events.
+        </td>
+
+        <td>
+            Order food online through our website anytime.
+        </td>
+    </tr>
+    
+</table>
+
+
+<h2 id="info">Information</h2>
+
+<table>
+    <tr>
+     
+       <th colspan="2">Information</th>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600" alt="Food">
+        </td>
+        <td>
+            Open Daily: 10:00 AM - 11:00 PM<br>
+            Address: Main Market, Meerut, Uttar Pradesh
+        </td>
+    </tr>
+</table>
+
+<h2 id="contact">Contact Us</h2>
+
+<table>
+    <tr>
+        
+        <th colspan="2">Contact Details</th>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" alt="Contact">
+        </td>
+        <td>
+            Phone: <a href="tel:8755338979" ">8755338979</a><br>
+            Email: <a href="mailto:akshitachoudhary329@gmail.com" >akshitachoudhary329@gmail.com</a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
