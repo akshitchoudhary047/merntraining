@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+        registration form 
+      </title>
+      <style>
+ body{
+            font-family: Arial, sans-serif;
+            margin:20px;
+            background-color: lightblue;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-bottom:30px;
+            background:white;
+        }
+
+        th,td{
+            border:1px solid black;
+            padding:15px;
+            text-align:center;
+        }
+
+        th{
+            background-color:#4CAF50;
+            color:white;
+        }
+
+
+      </style>
+    </head>
+    <body>
+
+         
+<marquee scrolltime="15" behavior="alternate" direction="right">
+<h1 >registration form </h1>
+</marquee>
+<CENTER>
+<table  border="1" CELLSPACING="10">
+   <TR>
+    <TH><label> first name</label></TH>
+   <TD> <input type="text" name="name"></TD>
+    </TR><TR>
+    <TH> <label> last name</label></TH>
+    <TD><input type="text" name="name"></TD></TR>
+     <TR><TH><label> email</label></TH>
+    <TD><input type="email" name="email" placeholder="enter your email"></TD></TR>
+<TR><TH>    <label>password</label>
+ </TH><TD>   <input type="password" name="password">
+   </TD></TR><TR><TH> <label>gender</label>
+ </TH><TD>   <input type="radio" name="gender" value="male">MALE
+ <input type="radio" name="gender" value="female">FEMALE</TD></TR>
+   <TR><TH> <label>highest qualification</label></TH>
+<TD>    <input type="radio" name="q" value="10">10
+ <input type="radio" name="q" value="12">12
+    <input type="radio" name="q" value="BCA">BCA</TD></TR>
+<TR><TH>    <label>SKILL</label></TH>
+<TD>    <input type="checkbox" name="skill" value="HTML">
+    <input type="checkbox" name="skill" value="CSS">
+    <input type="checkbox" name="skill" value="JS"></TD>
+</TR>    
+<TR><TH><label>CITY</label></TH>
+    <TD><select NAME="CITY">
+        <option value="">DELHI</option>
+           <option value="">MEERUT</option>
+              <option value="">GOA</option>
+                 <option value="">NOIDA</option>
+                    <option value="">BHUJ</option>
+    </select></TD>
+</TR>
+    <TR><TH><label>D.O.B</label></TH>
+    <TD><input type="date" value="DATE"></TD>
+    </TR>
+    <TR>
+        <TH COLSPAN="2"><a href="thanks.html" style="color:rgb(235, 8, 8);"><INPUT type="submit" value="SUBMIT"></a></TH>
+    </TR>
+    </table>
+    </CENTER>
+    </body>
+</html>
